@@ -3,7 +3,7 @@ name: Example Workflow
 on:
   workflow_dispatch:
     inputs:
-      shobana:
+      who-to-greet:
         description: greeting me
         required: true
         default: 'World'
@@ -22,4 +22,4 @@ jobs:
         id: print-to-log
         uses: actions/hello-world-docker-action@main
         with:
-          shobana: ${{ inputs.shobana }}
+          who-to-greet: ${{ inputs.who-to-greet }}
