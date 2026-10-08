@@ -1,0 +1,7 @@
+config {
+  type: "declaration",
+  database: "d-kaercher-lakehouse",
+  schema: "application__mx",
+  name: "amazon_ads_search_terms_enriched",
+  description: "Amazon Ads search terms data from Sponsored Products and Sponsored Brands campaigns enriched with business attributes.",
+}
