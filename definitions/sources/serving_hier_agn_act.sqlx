@@ -1,0 +1,7 @@
+config {
+  type: "declaration",
+  database: "d-kaercher-lakehouse",
+  schema: "serving",
+  name: "hier_agn_act",
+  description: "Active AGN product hierarchy levels 1 through 7."
+}

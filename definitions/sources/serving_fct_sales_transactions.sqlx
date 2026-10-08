@@ -1,0 +1,7 @@
+config {
+  type: "declaration",
+  database: "d-kaercher-lakehouse",
+  schema: "serving",
+  name: "fct_sales_transactions",
+  description: "Sales transactions from SAP COPA / SAP BW."
+}
