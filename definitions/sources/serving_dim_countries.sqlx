@@ -1,0 +1,7 @@
+config {
+  type: "declaration",
+  database: "d-kaercher-lakehouse",
+  schema: "serving",
+  name: "dim_countries",
+  description: "Country dimension master data with ISO country codes and localized country names.",
+}
